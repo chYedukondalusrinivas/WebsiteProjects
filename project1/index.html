@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="Style.css" rel="stylesheet">
+</head>
+  <body>
+
+    <!---------------------------------------------------------- Navbar ----------------------------------------------------------------->
+
+    <nav class="navbar navbar-expand-lg flex-wrap " style="background-color: rgb(50, 9, 9);">
+      <div class="container-fluid">
+        <a class="navbar-brand n-link" href="#">
+          <img src="./images/logo.webp" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Scaffie
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ">
+              <a class="nav-link n-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link n-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link n-link" href="#">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link n-link" href="#">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link n-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!----------------------------------------------------------- About  ----------------------------------------------------------->
+
+    <div class="container">
+      <p><h1>SCaffiee</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt voluptatem reiciendis commodi aperiam explicabo libero labore voluptate voluptatum dolore velit, blanditiis vero accusamus quis odit eum in dicta nostrum qui ex atque corrupti deleniti, consequatur eligendi! Et dolorem, asperiores ut numquam, perferendis molestias accusamus quo porro, repellendus modi quidem!
+      </p>
+    </div>
+
+    <!------------------------------------------------------- Carousel images ----------------------------------------------------------->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="./images/cimg5.webp" class="d-block w-100 img-fluid" alt="Image1" style="height: 580px;">
+          </div>
+          <div class="carousel-item">
+              <img src="./images/cimg6.jpg" class="d-block w-100 img-fluid " alt="Image2" style="height: 580px;" >
+          </div>
+          <div class="carousel-item">
+              <img src="./images/cimg3.jpeg" class="d-block w-100 img-fluid " alt="Image3" style="height: 580px;">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+  <!---------------------------------------------------- What we serve ----------------------------------------------------------->
+
+    <div class="container mt-5 mb-5">
+      <p><h1>What we Serve?</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt voluptatem reiciendis commodi aperiam explicabo libero labore voluptate voluptatum dolore velit, blanditiis vero accusamus quis odit eum in dicta nostrum qui ex atque corrupti deleniti, consequatur eligendi! Et dolorem, asperiores ut numquam, perferendis molestias accusamus quo porro, repellendus modi quidem!
+      </p>
+    </div>
+
+    <!----------------------------------------------------------- Cards 1 ----------------------------------------------------------->
+
+    <div class="container card-container d-flex flex-wrap gap-5">
+      <div class="card" style="width: 18rem;">
+        <img src="./images/mocha.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mocha</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Order Now!!</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./images/ocld.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cold Coffee</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Order Now!!</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./images/cappa.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">cappuccino</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Order Now!!</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./images/americano.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Americano</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Order Now!!</a>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------------------- Cards 2 ----------------------------------------------------------->
+
+    <div class="container card-container d-flex flex-wrap gap-5 mt-5">
+      <div class="card" style="width: 18rem;">
+        <img src="./images/blackcoffee.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Black Coffee</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Order Now!!</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./images/frappee.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Frapee</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Order Now!!</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./images/freddo.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Freddo</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Order Now!!</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./images/romano.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Romano</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Order Now!!</a>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------------------- footer ----------------------------------------------------------->
+
+    <footer class="bg-black text-white mt-5 pt-5 pb-5 justify-content-around">
+      <div class="container d-flex justify-content-around">
+        <div class="foot">
+          <h3 class="f-h">Scaffiee</h3>
+          <p>We serve all types of coffees</p>
+          <p>Leading restraunt in coffee businees</p>
+        </div>
+        <div class="foot">
+          <h3 class="f-h">Quick links</h3>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </div>
+        <div class="foot">
+          <h3 class="f-h">Follow us!</h3>
+          <ul class="list">
+            <li><a href="#"><i class="fab fa-facebook">Facebook</i></a></li>
+          <li><a href="#"><i class="fab fa-twitter">Twitter</i></a></li>
+          <li><a href="#"><i class="fab fa-instagram">Instagram</i></a></li>
+          <!-- <li><a href="#"><i class="fab fa-facebook"></i></a></li> -->
+          </ul>
+          
+        </div>
+        </div>
+      
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
