@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    height: 8vh;
+     line-height: 8vh;
+     font-size: 2.5vw;  /* making the text vertically center use same rem,px.. height to this  */
+}
+
+.symbol{
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol:hover{
+    
+    cursor: pointer;
+    background-color: black;
+}
+
+img{
+    height: 12vw;
+    width: 12vw;
+    object-fit: cover; /* if the images is destorted than show them properly within the div */
+    /* border-radius: 50%; */
+}
+
+.symbols{
+    display: flex; /* to align all the items in the same line */
+    justify-content: center;
+    margin-top: 5vh;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    font-size: 2vw;
+    margin-top: 5vh;
+    flex-direction: row;
+    /* flex-direction: column; /* Stack scores vertically on narrow screens */
+    text-align: center;
+}
+#user-score,#com-score{
+    font-size: 6vw;
+}
+.result-para{
+    margin-top: 5vh;
+}
+#result{
+    margin-top: 5vh;
+    background-color: black;
+    font-size: 2vw;
+    height: auto;
+    line-height: normal;
+    color: white;
+    display: inline-block; /* Better for wrapping */
+    padding: 1.5vw;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    .symbol {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    img {
+        height: 15vw;
+        width: 15vw;
+    }
+
+    .scores {
+        font-size: 3vw;
+        gap: 3vw;
+        flex-direction: column; /* Stack scores vertically */
+    }
+
+    #user-score, #com-score {
+        font-size: 8vw;
+    }
+
+    #result {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    .symbol {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    img {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .symbols {
+        gap: 3vw;
+    }
+
+    .scores {
+        font-size: 4vw;
+        gap: 2vw;
+    }
+
+    #user-score, #com-score {
+        font-size: 10vw;
+    }
+
+    #result {
+        font-size: 4vw;
+        padding: 2vw;
+    }
+}
