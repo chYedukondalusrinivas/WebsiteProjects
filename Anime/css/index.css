@@ -1,0 +1,43 @@
+.nav-back{
+    background-color: transparent;
+    border: none;
+}
+.bg{
+    background-image: url('./images/bk3.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav-link:hover {
+    /* border-radius: 30%; */
+    background-color: yellow; /* Light background color on hover */
+    color: #007bff; /* Change text color on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+  }
+.nv{
+    color: rgb(239, 252, 142);
+}
+.nav-link.active{
+    /* border-radius: 30%; */
+    background-color: yellow;
+}
+.form{
+    width:400px;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    border-radius: 7%;
+}
+.form:hover{
+    transform: scale(1.05); /* Slightly larger */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Larger shadow */
+}
+.form-control{
+    background: transparent;
+}
+
+.input-box input::placeholder{
+    color:white;
+}
+

@@ -1,0 +1,68 @@
+.bg{
+    background-color:rgb(69, 2, 56);
+}
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav-back{
+    background-color: transparent;
+}
+.nav-link:hover {
+    /* border-radius: 30%; */
+    background-color: yellow; /* Light background color on hover */
+    color: #007bff; /* Change text color on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+  }
+.nv{
+    color: beige;
+}
+.nav-link.active{
+    /* border-radius: 30%; */
+    background-color: yellow;
+}
+
+.card-img-top{
+    height: 450px;
+}
+.card-transparent{
+    background: transparent;
+}
+.card-title{
+    color: whitesmoke;
+}
+.card-text{
+    color: white;
+}
+.card-title:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05); /* Slightly larger */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Larger shadow */
+}
+.footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons */
+}
+
+.footer .social-icons a {
+    color: yellowgreen;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none; /* Remove underline from icons */
+}
+
+.footer .social-icons a:hover {
+    color: #007bff;
+}
